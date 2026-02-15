@@ -14,7 +14,7 @@ export default function CartSidebar() {
       {/* Cart Button */}
       <button
         onClick={() => setOpen(true)}
-        className="fixed top-4 right-4 bg-zomato text-white px-4 py-2 rounded shadow-lg z-50"
+        className="fixed top-12 right-12 bg-zomato text-white px-4 py-2 rounded shadow-lg z-50"
       >
         Cart ({cart.reduce((sum, p) => sum + p.quantity, 0)})
       </button>
